@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>forms-contact</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <div class="hero">
+    <form  action="https://api.web3forms.com/submit" method="POST">
+      
+      <div class="row">
+        <div class="input-group">
+          <input type="text" id="name" name="name"   required>
+          <label for="name">Your Name</label>
+        </div>
+  
+        <div class="input-group">
+          <input type="tel" id="number" name="tel"  required>
+          <label for="Number">Phone No.</label>
+        </div>
+
+      </div>
+      <input type="hidden" name="access_key" value="2c491102-b0b4-4287-b325-0164ce7fbd1e">
+
+      <div class="input-group">
+        <input type="text" id="email" name="email"   required>
+        <label for="email">Email</label>
+      </div>
+
+      <div class="input-group">
+        <textarea id="message" rows="8" required></textarea>
+        <label for="message">Your Message</label>
+       </div>
+       <button type="submit">SUBMIT</button>
+      
+      
+    </form>
+  </div>
+</body>
+</html>
